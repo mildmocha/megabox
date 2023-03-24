@@ -46,6 +46,7 @@ body {
   font-family: "NanumBarunGothic", sans-serif;
 }
 
+body > .adwrap {background-color: #484848;}
 #body-wrap {
   min-width: 1100px;
   width: 100%;
@@ -56,13 +57,15 @@ body {
   position: relative;
   display: block;
   text-align: center;
-  width: 100%; 
+  width: 1100px; margin:0 auto; 
   background-color: #484848;
   box-sizing: border-box;
   
 }
+.top-ad > div {width:1100px; margin: 0 auto;}
 .top-ad  p {position: absolute; right: 0px; top: 60px;}
-.top-ad > img { object-fit: contain; width: 100%;height: 80px;}
+.top-ad > img {  width:100%;height: 80px; margin:0 auto;}
+
 
 .main-header {
   width: 100%;
