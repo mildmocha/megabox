@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MEET PLAY SHARE, 메가박스</title>
+  <link rel="shortcut icon" href="/headerimg/favicon.ico">
+  <link rel="stylesheet" href="css/reset.css" />
+  <link rel="stylesheet" href="css/basic.css" />
+  <script src="js/prefixfree.min.js"></script>
+  <script src="https://kit.fontawesome.com/f4965d5fd9.js" crossorigin="anonymous"></script>
+  <script defer src="js/jquery-3.6.4.min.js"></script>
+  <script defer src="js/main.js"></script>
+  <style>
+    @font-face {
+  font-family: "NanumBarunGothic";
+  font-style: normal;
+  font-weight: 400;
+  src: url("//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.eot");
+  src: url("//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.eot?#iefix")
+      format("embedded-opentype"),
+    url("//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.woff")
+      format("woff"),
+    url("//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.ttf")
+      format("truetype");
+}
+
+@font-face {
+  font-family: "NanumBarunGothic";
+  font-style: normal;
+  font-weight: 700;
+  src: url("//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebBold.eot");
+  src: url("//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebBold.eot?#iefix")
+      format("embedded-opentype"),
+    url("//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebBold.woff")
+      format("woff"),
+    url("//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebBold.ttf")
+      format("truetype");
+}
+
+@font-face {
+  font-family: "NanumBarunGothic";
+  font-style: normal;
+  font-weight: 300;
+  src: url("//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebLight.eot");
+  src: url("//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebLight.eot?#iefix")
+      format("embedded-opentype"),
+    url("//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebLight.woff")
+      format("woff"),
+    url("//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebLight.ttf")
+      format("truetype");
+}
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+  </style>
+
+</head>
+
+<body>
+  <div class="top-ad">
+    <div>
+      <a href="#">
+    <img src="./headerimg/fa7f15a8758102e03420443734371e93.jpg">
+    <p class="btn_closeBanner">
+      <img src="./headerimg/x.png" alt="닫기버튼">
+    </p>      
+  </a>
+
+  </div>
+</div>
+  <div id="body-wrap">
+    <div id="hover" class="abc"></div>
+    <header>
+      <div class="main-header">
+        <h1 class="top-logo"><a href="#"></a></h1>
+        <div class="util-area">
+          <div class="left-link">
+            <a href="#">VIP LOUNGE</a>
+            <a href="#">멤버십</a>
+            <a href="#">고객센터</a>
+          </div>
+          <div class="right-link">
+            <a href="#">로그인</a>
+            <a href="#">회원가입</a>
+            <a href="#">빠른예매</a>
+          </div>
+        </div>
+        <div class="link-area">
+          <div class="left-ico">
+            <a class="ham" href="#"></a>
+            <a class="search" href="#"></a>
+          </div>
+          <div class="right-ico">
+            <a class="schedule" href="#"></a>
+            <a class="my-mega" href="#"></a>
+          </div>
+        </div>
+        <nav id="gnb">
+          
+          <ul class="gnb1">
+            <li><a class="gnb-movie" href="#">영화</a>
+            <div class="sub">
+            <ul>
+              <li><a href="#">전체영화</a></li>
+              <li><a href="#">큐레이션</a></li>
+              <li><a href="#">무비포스트</a></li>
+            </ul>
+            </div>
+            </li>
+            <li><a class="gnb-booking" href="#">예매</a>
+              <div class="sub">
+                <ul>
+                  <li><a href="#">빠른예매</a></li>
+                  <li><a href="#">상영시간</a></li>
+                  <li><a href="#">더 부티크 프라이빗 예매</a></li>
+                </ul>
+                </div></li>
+            <li><a class="gnb-theater" href="#">극장</a>
+              <div class="sub">
+                <ul>
+                  <li><a href="#">전체극장</a></li>
+                  <li><a href="#">특별관</a></li>
+                </ul>
+                </div></li>
+            <li><a class="gnb-event" href="#">이벤트</a>
+              <div class="sub">
+                <ul>
+                  <li><a href="#">진행중 이벤트</a></li>
+                  <li><a href="#">지난 이벤트</a></li>
+                  <li><a href="#">당첨자발표</a></li>
+                </ul>
+                </div></li>
+            <li><a class="gnb-store" href="#">스토어</a>
+              </li>
+            <li><a class="gnb-benefit" href="#">혜택</a>
+              <div class="sub">
+                <ul>
+                  <li><a href="#">메가박스 멤버십</a></li>
+                  <li><a href="#">제휴/할인</a></li>
+                </ul>
+                </div></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <div class="container main-container">
+      <div id="contents">
+        <div class="mainpage">
+          <section class="section1">
+            <div class="bg">
+              <div class="bg-pattern">
+              </div>
+              <img src="sec1img/mainbg.jpg">
+            </div>
+            <div class="cont-area">
+              <div class=" box-office-txt">
+                <h2>박스오피스</h2>
+                <a href="#">더 많은 영화보기  <i class="fa-duotone fa-plus more"></i></a>
+
+              </div>
+              <div class="main-movie">
+                <ol class="list">
+                  <li>
+                    <a href="#">
+                      <div class="screen-type">
+                        <p><img src="./sec1img/db.png"> </p>
+                        <p><img src="./sec1img/mov_top_tag_mx.png"> </p>
+
+                      </div>
+                      <p class="rank">
+                        <span class="wi">1</span>
+                      </p>
+                      <img class="poster" src="sec1img/box1.jpg">
+                      <div class="wrap">
+                        <div class="summary">
+
+                          “이 근처에 폐허 없니? 문을 찾고 있어” <br>
+                          규슈의 한적한 마을에 살고 있는 소녀 ‘스즈메’는 <br>
+                          문을 찾아 여행 중인 청년 ‘소타’를 만난다. <br>
+
+                        </div>
+                        <div class="score">
+                          <div class="preview">
+                            <p class="tit">관람평</p>
+                            <p class="number"><span>8.9</span></p>
+                          </div>
+                        </div>
+                      </div>
+                    </a>
+                    <div class="btn-util">
+                      <button type="button" class="button">
+                        <i class="fa-regular fa-heart"></i>
+                        4.1k
+                      </button>
+                      <div class="case">
+                        <a href="#" class="bookbtn">
+                          예매
+                        </a>
+                      </div>
+                    </div>
+
+                  </li>
+                  <li>
+                    <a href="#">
+                      <div class="screen-type">
+                        <p><img src="./sec1img/db.png"> </p>
+                        <p><img src="./sec1img/mov_top_tag_mx.png"> </p>
+
+                      </div>
+                      <p class="rank">
+                        <span class="wi">2</span>
+                      </p>
+                      <img class="poster" src="sec1img/box2.jpg">
+                      <div class="wrap">
+                        <div class="summary">
+
+                          전국 제패를 꿈꾸는 북산고 농구부 5인방의 꿈과 열정,
+                          멈추지 않는 도전을 그린 영화
+                          <br>
+                          <br>
+                          <br>
+                          <br>
+
+
+                        </div>
+                        <div class="score">
+                          <div class="preview">
+                            <p class="tit">관람평</p>
+                            <p class="number"><span>9.5</span></p>
+                          </div>
+                        </div>
+                      </div>
+                    </a>
+                    <div class="btn-util">
+                      <button type="button" class="button">
+                        <i class="fa-regular fa-heart"></i>
+                        4.3k
+                      </button>
+                      <div class="case">
+                        <a href="#" class="bookbtn">
+                          예매
+                        </a>
+                      </div>
+                    </div>
+
+                  </li>
+                  <li>
+                    <a href="#">
+                      <div class="screen-type">
+
+                        <p><img src="./sec1img/mov_top_tag_mx.png"> </p>
+
+                      </div>
+                      <p class="rank">
+                        <span class="wi">3</span>
+                      </p>
+                      <img class="poster" src="./sec1img/box3.jpg">
+                      <div class="wrap">
+                        <div class="summary">
+
+
+                          “날도 더웠고 수업도 지루했고.. 그렇게 졸리고 나른하던 날에 너를 처음 만났어”
+                          "1998년, 처음 만났다"
+                          <br>
+                          <br>
+                          “누굴 좋아하면 용기내야 된대”<br>
+                          2004년, 첫사랑이 생겼다
+
+                        </div>
+                        <div class="score score3">
+                          <div class="preview">
+                            <p class="tit">관람평</p>
+                            <p class="number"><span>8.9</span></p>
+                          </div>
+                        </div>
+                      </div>
+                    </a>
+                    <div class="btn-util">
+                      <button type="button" class="button">
+                        <i class="fa-regular fa-heart"></i>
+                        532
+                      </button>
+                      <div class="case">
+                        <a href="#" class="bookbtn">
+                          예매
+                        </a>
+                      </div>
+                    </div>
+
+                  </li>
+                  <li>
+                    <a href="#">
+                      <div class="screen-type">
+                        <p><img src="./sec1img/db.png"> </p>
+                        <p><img src="./sec1img/mov_top_tag_mx.png"> </p>
+
+                      </div>
+                      <p class="rank">
+                        <span class="wi">4</span>
+                      </p>
+                      <img class="poster" src="sec1img/box4.jpg">
+                      <div class="wrap">
+                        <div class="summary">
+
+
+                          모두를 공포에 몰아넣은 하루…<br>
+                          비행기 불시착은 시작에 불과했다!<br>
+                          <br>
+                          <br><br>
+
+
+                        </div>
+                        <div class="score">
+                          <div class="preview">
+                            <p class="tit">관람평</p>
+                            <p class="number"><span>3.9</span></p>
+                          </div>
+                        </div>
+                      </div>
+                    </a>
+                    <div class="btn-util">
+                      <button type="button" class="button">
+                        <i class="fa-regular fa-heart"></i>
+                        123
+                      </button>
+                      <div class="case">
+                        <a href="#" class="bookbtn">
+                          예매
+                        </a>
+                      </div>
+                    </div>
+
+                  </li>
+                </ol>
+              </div>
+            </div>
+            <div class="search-link">
+              <div class="cell">
+                <div class="search">
+                  <input type="text" placeholder="영화명을 입력해 주세요">
+                  <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                </div>
+              </div>
+              <div class="cell">
+                <a href="#"><i class="fa-regular fa-calendar-days"></i> 상영시간표</a>
+              </div>
+              <div class="cell">
+                <a href="#"><i class="fa-solid fa-film"></i> 박스오피스</a>
+              </div>
+              <div class="cell">
+                <a href="#"><i class="fa-solid fa-ticket"></i> 빠른예매</a>
+              </div>
+            </div>
+            <div class="mouse"></div>
+          </section>
+          <section class="section2">
+
+            <div class="m-wrap">
+              <div class="sec2-util">
+                <h2>혜택</h2>
+
+                <a href="#"><i class="fa-duotone fa-plus more"></i></a>
+              </div>
+              <div class="slide-main">
+                <div class="slide">
+                  <a href=#>
+                    <div class="text-img">
+                      <img src="sec2img/text.jpg">
+                    </div>
+                    <img src="sec2img/ticket.jpg">
+                  </a>
+                </div>
+                <div class="slide-ctrl">
+                  <div class="page">
+                    <span class="page-n on"></span>
+                    <span class="page-n"></span>
+                    <span class="page-n"></span>
+                    <span class="page-n"></span>
+                    <span class="page-n"></span>
+                    <span class="page-n"></span>
+                    <span class="page-n"></span>
+                  </div>
+                  <div class="slide-util">
+                    <button type="button" class="btn-prev">
+
+                    </button>
+                    <button type="button" class="btn-next">
+
+                    </button>
+                    <button type="button" class="btn-play">
+
+                    </button>
+                  </div>
+                  <div class="page-num">1 / 7</div>
+                </div>
+                <div class="right-ad">
+                  <a href=#>
+
+                    <img src="sec2img/rightad.jpg">
+                  </a>
+                </div>
+                <div class="dc">
+                  <div class="bo">
+                    <a href=#>
+
+                      <img src="sec2img/dc.jpg">
+                    </a>
+                  </div>
+                  <div class="kakao">
+                    <a href=#>
+                      <img src="sec2img/kakao.jpg">
+                    </a>
+                  </div>
+
+                </div>
+
+
+              </div>
+            </div>
+            <div class="sec2-link">
+              <div class="vip1">
+                <a href="#" class="sec2-ico vip2">VIP LOUNGE</a>
+              </div>
+              <div class="vip1">
+                <a href="#" class="sec2-ico2 ">멤버십</a>
+              </div>
+              <div class="vip1">
+                <a href="#" class="sec2-ico3 ">할인카드안내</a>
+              </div>
+              <div class="vip1">
+                <a href="#" class="sec2-ico4">이벤트</a>
+              </div>
+              <div class="vip1">
+                <a href="#" class="sec2-ico5">스토어</a>
+              </div>
+
+            </div>
+
+          </section>
+          <section class="section3">
+            <div class="m-wrap">
+              <div class="sec2-util">
+                <h2>큐레이션</h2>
+
+                <a href="#">큐레이션 더보기 <i class="fa-duotone fa-plus more"></i></a>
+              </div>
+              <div class="curation">
+                <div class="curation-main">
+                  <div class="cura-wrap">
+                    <div class="cura-img">
+                      <a href="#"><img src="sec3img/qration.jpg"></a>
+                    </div>
+                    <div class="cura-txt">
+                      <span>#클래식소사이어티</span>
+                      <p>[시네도슨트 - 그리스 신화] 신화시대의 시작</p>
+
+                      <p><br>신화가 그린 그림, 예술 작품들을 통해 그리스 신화를 다시 읽어 봅니다.<br><br>
+                        안현배 미술사학자의 안내에 따라 감상하는 그리스 신화시대의 시작에서 몰락까지.<br><br>
+
+                        [그리스 신화 1. 신화시대의 시작]<br>
+                        - 강연장소 : 메가박스 상암월드컵경기장, 코엑스 지점<br>
+                        - 강연일시 (코엑스) : 4월 3일(월) 오전 11시, 4월 4일 (화) 오후 7시 30분<br>
+                        - 강연일시 (상암월드컵경기장) : 4월 8일(토) 오전 11시</p>
+                    </div>
+                    <div class="cura-link">
+                      <div class="cu-left"><a href="#">상세정보</a></div>
+                      <div class="cu-right"><a href="#">상영예정</a></div>
+                    </div>
+
+                  </div>
+
+
+                </div>
+
+              </div>
+              <div class="cu-li">
+                <ul>
+                  <li class="cu-li-img"><a href="#"> <img src="sec3img/sec3-li1.jpg">
+                      <p>[유럽 클래식 투어] 파리 에펠탑 콘서트 </p>
+                    </a>
+                  </li>
+                  <li class="cu-li-img"><a href="#"><img src="sec3img/sec3-li2.jpg">
+                      <p>[사건 읽는 영화관] 내 친구 다머 : 연쇄살인범의 탄생</p>
+                    </a></li>
+                  <li class="cu-li-img"><a href="#"><img src="sec3img/sec3-li3.jpg">
+                      <p>더 웨일</p>
+                    </a></li>
+                  <li class="cu-li-img"><a href="#"><img src="sec3img/sec3-li4.jpg">
+                      <p>이니셰린의 밴시</p>
+                    </a></li>
+
+                </ul>
+              </div>
+            </div>
+
+          </section>
+          <section class="section4">
+            <div class="m-wrap">
+              <div class="sec2-util">
+                <h2>메가박스 안내</h2>
+              </div>
+              <div class="swipe">
+                <div class="swipe-img"><a href="#" class="dolb"></a></div>
+                <div class="swipe-img"><a href="#" class="priv"></a></div>
+                <div class="swipe-img"><a href="#" class="thebu"></a></div>
+                <div class="swipe-img"><a href="#" class="bgmx"></a></div>
+                <div class="swipe-img"><a href="#" class="compo"></a></div>
+                <div class="swipe-img"><a href="#" class="puppy">
+                  <div class="swipe-new">NEW</div>
+                </a></div>
+              </div>
+            </div>
+            <div class="sec4-control">
+              <button type="button" class="swprev"></button>
+              <button type="button" class="swnext"></button>
+
+            </div>
+
+            <div class="notice">
+              <div class="noti-wrap">
+              <p class="">지점</p>
+            <p class="linkp"><a href=#><strong>[원주센트럴]</strong> [원주센트럴] 운영시간 변경 안내 (3/27부터~ 별도 공지까지) </a></p>
+            <p class="">2023.03.22</p>
+            <p class=""><a href="#">더보기 <i class="fa-solid fa-chevron-right"></i> </a></p>
+          </div>
+          </div>
+          <div class="sec4-link">
+            <div class="cus4">
+              <a href="#" class="sec4-ico ">고객센터</a>
+            </div>
+            <div class="cus4">
+              <a href="#" class="sec4-ico2 ">자주 묻는 질문</a>
+            </div>
+            <div class="cus4">
+              <a href="#" class="sec4-ico3 ">1:1 문의</a>
+            </div>
+            <div class="cus4">
+              <a href="#" class="sec4-ico4">단체/대관문의</a>
+            </div>
+            <div class="cus4">
+              <a href="#" class="sec4-ico5">분실물 문의/접수</a>
+            </div>
+            <div class="cus4">
+              <a href="#" class="sec4-ico6">더 부티크 프라이빗<br>대관예매</a>
+            </div>
+            </div>
+          </section>
+          <div id="ad-banner">
+            <div class="ad-banner-wrap">
+              <img src="./sec4img/adbanner.jpg">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <div class="foot-wrap">
+      <div class="footer-top">
+        <ul>
+          <li><a href="#">회사소개</a></li>
+          <li><a href="#">인재채용</a></li>
+          <li><a href="#">사회공헌</a></li>
+          <li><a href="#">제휴/광고/부대사업문의</a></li>
+          <li><a href="#">이용약관</a></li>
+          <li><a href="#">위치기반서비스 이용약관</a></li>
+          <li><a href="#">개인정보처리방침</a></li>
+          <li><a href="#">윤리경영</a></li>
+          <li><a href="#"><i class="fa-solid fa-magnifying-glass"></i>  극장찾기</a></li>
+        </ul>
+      </div>
+      <div class="footer-bottom">
+        <div class="foot-log"></div>
+        <div class="foot-info">
+        <p>서울특별시 성동구 왕십리로 50, 6층 (성수동1가, 메가박스 스퀘어) ARS 1544-0070</p>
+        <p>대표자명 홍정인 · 개인정보보호책임자 공성진 · 사업자등록번호 211-86-59478 · 통신판매업신고번호 2023-서울성동-0177</p>
+        <p>COPYRIGHT © MegaboxJoongAng, Inc. All rights reserved</p>
+      </div>
+        <div class="sns">
+          <a href="#" class="youtu"></a>
+          <a href="#" class="insta"></a>
+          <a href="#" class="face"></a>
+          <a href="#" class="twit"></a>
+
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
