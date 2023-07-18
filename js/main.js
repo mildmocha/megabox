@@ -22,7 +22,7 @@ menus.forEach(function(menu){
       
    }
 })
-/* 잘됨 보더바텀생성
+
 boder.forEach(function(bos){
    bos.onmouseenter = function(){
       (this.style.borderBottom = '3px solid #fff')
@@ -30,4 +30,4 @@ boder.forEach(function(bos){
    }
   
 })
-*/
+
